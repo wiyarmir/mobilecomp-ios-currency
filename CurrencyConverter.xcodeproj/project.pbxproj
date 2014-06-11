@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40CBF551948B45B0090B76C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CBF541948B45B0090B76C /* Foundation.framework */; };
+		F40CBF571948B45B0090B76C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CBF561948B45B0090B76C /* CoreGraphics.framework */; };
+		F40CBF591948B45B0090B76C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CBF581948B45B0090B76C /* UIKit.framework */; };
+		F40CBF5F1948B45B0090B76C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40CBF5D1948B45B0090B76C /* InfoPlist.strings */; };
+		F40CBF611948B45B0090B76C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F40CBF601948B45B0090B76C /* main.m */; };
+		F40CBF651948B45B0090B76C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F40CBF641948B45B0090B76C /* AppDelegate.m */; };
+		F40CBF681948B45B0090B76C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40CBF661948B45B0090B76C /* Main.storyboard */; };
+		F40CBF6B1948B45B0090B76C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40CBF6A1948B45B0090B76C /* ViewController.m */; };
+		F40CBF6D1948B45B0090B76C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40CBF6C1948B45B0090B76C /* Images.xcassets */; };
+		F40CBF741948B45B0090B76C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CBF731948B45B0090B76C /* XCTest.framework */; };
+		F40CBF751948B45B0090B76C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CBF541948B45B0090B76C /* Foundation.framework */; };
+		F40CBF761948B45B0090B76C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CBF581948B45B0090B76C /* UIKit.framework */; };
+		F40CBF7E1948B45B0090B76C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40CBF7C1948B45B0090B76C /* InfoPlist.strings */; };
+		F40CBF801948B45B0090B76C /* CurrencyConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F40CBF7F1948B45B0090B76C /* CurrencyConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40CBF771948B45B0090B76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40CBF491948B45B0090B76C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40CBF501948B45B0090B76C;
+			remoteInfo = CurrencyConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F40CBF511948B45B0090B76C /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40CBF541948B45B0090B76C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F40CBF561948B45B0090B76C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F40CBF581948B45B0090B76C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F40CBF5C1948B45B0090B76C /* CurrencyConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyConverter-Info.plist"; sourceTree = "<group>"; };
+		F40CBF5E1948B45B0090B76C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F40CBF601948B45B0090B76C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F40CBF621948B45B0090B76C /* CurrencyConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CurrencyConverter-Prefix.pch"; sourceTree = "<group>"; };
+		F40CBF631948B45B0090B76C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F40CBF641948B45B0090B76C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F40CBF671948B45B0090B76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F40CBF691948B45B0090B76C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F40CBF6A1948B45B0090B76C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F40CBF6C1948B45B0090B76C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F40CBF721948B45B0090B76C /* CurrencyConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40CBF731948B45B0090B76C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F40CBF7B1948B45B0090B76C /* CurrencyConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyConverterTests-Info.plist"; sourceTree = "<group>"; };
+		F40CBF7D1948B45B0090B76C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F40CBF7F1948B45B0090B76C /* CurrencyConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40CBF4E1948B45B0090B76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40CBF571948B45B0090B76C /* CoreGraphics.framework in Frameworks */,
+				F40CBF591948B45B0090B76C /* UIKit.framework in Frameworks */,
+				F40CBF551948B45B0090B76C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40CBF6F1948B45B0090B76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40CBF741948B45B0090B76C /* XCTest.framework in Frameworks */,
+				F40CBF761948B45B0090B76C /* UIKit.framework in Frameworks */,
+				F40CBF751948B45B0090B76C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40CBF481948B45A0090B76C = {
+			isa = PBXGroup;
+			children = (
+				F40CBF5A1948B45B0090B76C /* CurrencyConverter */,
+				F40CBF791948B45B0090B76C /* CurrencyConverterTests */,
+				F40CBF531948B45B0090B76C /* Frameworks */,
+				F40CBF521948B45B0090B76C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40CBF521948B45B0090B76C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40CBF511948B45B0090B76C /* CurrencyConverter.app */,
+				F40CBF721948B45B0090B76C /* CurrencyConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40CBF531948B45B0090B76C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F40CBF541948B45B0090B76C /* Foundation.framework */,
+				F40CBF561948B45B0090B76C /* CoreGraphics.framework */,
+				F40CBF581948B45B0090B76C /* UIKit.framework */,
+				F40CBF731948B45B0090B76C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F40CBF5A1948B45B0090B76C /* CurrencyConverter */ = {
+			isa = PBXGroup;
+			children = (
+				F40CBF631948B45B0090B76C /* AppDelegate.h */,
+				F40CBF641948B45B0090B76C /* AppDelegate.m */,
+				F40CBF661948B45B0090B76C /* Main.storyboard */,
+				F40CBF691948B45B0090B76C /* ViewController.h */,
+				F40CBF6A1948B45B0090B76C /* ViewController.m */,
+				F40CBF6C1948B45B0090B76C /* Images.xcassets */,
+				F40CBF5B1948B45B0090B76C /* Supporting Files */,
+			);
+			path = CurrencyConverter;
+			sourceTree = "<group>";
+		};
+		F40CBF5B1948B45B0090B76C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F40CBF5C1948B45B0090B76C /* CurrencyConverter-Info.plist */,
+				F40CBF5D1948B45B0090B76C /* InfoPlist.strings */,
+				F40CBF601948B45B0090B76C /* main.m */,
+				F40CBF621948B45B0090B76C /* CurrencyConverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F40CBF791948B45B0090B76C /* CurrencyConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F40CBF7F1948B45B0090B76C /* CurrencyConverterTests.m */,
+				F40CBF7A1948B45B0090B76C /* Supporting Files */,
+			);
+			path = CurrencyConverterTests;
+			sourceTree = "<group>";
+		};
+		F40CBF7A1948B45B0090B76C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F40CBF7B1948B45B0090B76C /* CurrencyConverterTests-Info.plist */,
+				F40CBF7C1948B45B0090B76C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40CBF501948B45B0090B76C /* CurrencyConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40CBF831948B45B0090B76C /* Build configuration list for PBXNativeTarget "CurrencyConverter" */;
+			buildPhases = (
+				F40CBF4D1948B45B0090B76C /* Sources */,
+				F40CBF4E1948B45B0090B76C /* Frameworks */,
+				F40CBF4F1948B45B0090B76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurrencyConverter;
+			productName = CurrencyConverter;
+			productReference = F40CBF511948B45B0090B76C /* CurrencyConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F40CBF711948B45B0090B76C /* CurrencyConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40CBF861948B45B0090B76C /* Build configuration list for PBXNativeTarget "CurrencyConverterTests" */;
+			buildPhases = (
+				F40CBF6E1948B45B0090B76C /* Sources */,
+				F40CBF6F1948B45B0090B76C /* Frameworks */,
+				F40CBF701948B45B0090B76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40CBF781948B45B0090B76C /* PBXTargetDependency */,
+			);
+			name = CurrencyConverterTests;
+			productName = CurrencyConverterTests;
+			productReference = F40CBF721948B45B0090B76C /* CurrencyConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40CBF491948B45B0090B76C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Guillermo Orellana";
+				TargetAttributes = {
+					F40CBF711948B45B0090B76C = {
+						TestTargetID = F40CBF501948B45B0090B76C;
+					};
+				};
+			};
+			buildConfigurationList = F40CBF4C1948B45B0090B76C /* Build configuration list for PBXProject "CurrencyConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40CBF481948B45A0090B76C;
+			productRefGroup = F40CBF521948B45B0090B76C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40CBF501948B45B0090B76C /* CurrencyConverter */,
+				F40CBF711948B45B0090B76C /* CurrencyConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40CBF4F1948B45B0090B76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40CBF6D1948B45B0090B76C /* Images.xcassets in Resources */,
+				F40CBF5F1948B45B0090B76C /* InfoPlist.strings in Resources */,
+				F40CBF681948B45B0090B76C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40CBF701948B45B0090B76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40CBF7E1948B45B0090B76C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40CBF4D1948B45B0090B76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40CBF6B1948B45B0090B76C /* ViewController.m in Sources */,
+				F40CBF651948B45B0090B76C /* AppDelegate.m in Sources */,
+				F40CBF611948B45B0090B76C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40CBF6E1948B45B0090B76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40CBF801948B45B0090B76C /* CurrencyConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40CBF781948B45B0090B76C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40CBF501948B45B0090B76C /* CurrencyConverter */;
+			targetProxy = F40CBF771948B45B0090B76C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F40CBF5D1948B45B0090B76C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40CBF5E1948B45B0090B76C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F40CBF661948B45B0090B76C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40CBF671948B45B0090B76C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F40CBF7C1948B45B0090B76C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40CBF7D1948B45B0090B76C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40CBF811948B45B0090B76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F40CBF821948B45B0090B76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40CBF841948B45B0090B76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyConverter/CurrencyConverter-Prefix.pch";
+				INFOPLIST_FILE = "CurrencyConverter/CurrencyConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F40CBF851948B45B0090B76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyConverter/CurrencyConverter-Prefix.pch";
+				INFOPLIST_FILE = "CurrencyConverter/CurrencyConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F40CBF871948B45B0090B76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CurrencyConverter.app/CurrencyConverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyConverter/CurrencyConverter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CurrencyConverterTests/CurrencyConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F40CBF881948B45B0090B76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CurrencyConverter.app/CurrencyConverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyConverter/CurrencyConverter-Prefix.pch";
+				INFOPLIST_FILE = "CurrencyConverterTests/CurrencyConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40CBF4C1948B45B0090B76C /* Build configuration list for PBXProject "CurrencyConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40CBF811948B45B0090B76C /* Debug */,
+				F40CBF821948B45B0090B76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40CBF831948B45B0090B76C /* Build configuration list for PBXNativeTarget "CurrencyConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40CBF841948B45B0090B76C /* Debug */,
+				F40CBF851948B45B0090B76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F40CBF861948B45B0090B76C /* Build configuration list for PBXNativeTarget "CurrencyConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40CBF871948B45B0090B76C /* Debug */,
+				F40CBF881948B45B0090B76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40CBF491948B45B0090B76C /* Project object */;
+}
