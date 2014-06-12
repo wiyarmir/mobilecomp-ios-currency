@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convertCurr:(id)sender {
+    double euro = [ _euroText.text doubleValue];
+    double pln = euro * 4.1f;
+    
+    NSString *resultString = [[NSString alloc] initWithFormat:@"%.2f PLN",pln];
+    _plnLabel.text = resultString;
+}
 @end
